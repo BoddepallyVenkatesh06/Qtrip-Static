@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  position: relative;
+}
+#explore{
+         cursor:pointer;
+}
+  .hero {
+    min-height: 50vh;
+    max-width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../pages/adventures/resort/assets/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-heading {
+    font-size: 2.25rem;
+  }
+  
+  .hero-subheading {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+  }
+  
+  .hero-input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    width: 60%;
+  }
+  
+  .hero-input:focus {
+    outline: none;
+  }
+  
+  .tile {
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 24rem;
+    overflow: hidden;
+  }
+  
+  .tile-text {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tile-text h5 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .tile-text p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+  }
+  
+  .tile:hover img {
+    filter: brightness(50%);
+    transform: scale(1.2);
+  }
+
+
+/* ================================== */
+/* Adventures grid page CSS */
+/* ================================== */
+
+.adventure-card {
+  /* TODO: MODULE_ADVENTURES_GRID */
+  /* 1. Fill in the required properties. */
+  height: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.adventure-card img {
+  /* TODO: MODULE_ADVENTURES_GRID */
+  /* 1. Fill in the required properties. */
+  width: 100%;
+  height: 193;
+  object-fit: cover;
+
+}
+.adventure-card img:hover {
+  /* TODO: MODULE_ADVENTURES_GRID */
+  /* 1. Fill in the required properties. */
+  filter:brightness(50%);
+  cursor: pointer;
+}
+
+/* ================================== */
+/* Adventure details page CSS */
+/* ================================== */
+
+.adventure-detail-card {
+  /* TODO: MODULE_ADVENTURE_DETAILS */
+  /* 1. Fill in the required properties. */
+  margin: 10px;
+
+}
+
+.adventure-card-image {
+  /* TODO: MODULE_ADVENTURE_DETAILS */
+  /* 1. Fill in the required properties. */
+ width: 100%;
+ height: 100%;
+ border-radius: 1px;
+ object-fit: cover;
+}
+.adventure-card-image:hover {
+  /* TODO: MODULE_ADVENTURE_DETAILS */
+  /* 1. Fill in the required properties. */
+  filter:brightness(50%);
+  cursor: pointer;
+}
+
+
+.experience-content ul li {
+  margin-left: 16px;
+  padding: 0;
+}
+
+.parent {
+  position: relative;
+  /* margin-top: 50px; */
+  /* padding: 0px 70px 0px 0px; */
+  
+}
+
+.nav-link {
+  margin-right: 36px;
+}
+
+
+.experience-content ul li {
+  margin-left: 16px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktops phones: */
+  #reservation {
+    width: 400px;
+    position: fixed;
+  }
+}
