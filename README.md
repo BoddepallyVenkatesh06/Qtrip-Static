@@ -1,10 +1,10 @@
-# Qtip Static Website
+# Qtrip Static Website
 
 This is a simple static website project built using Qtip.
 
 ## Overview
 
-Qtip is a lightweight static website generator that simplifies the process of creating and deploying static websites. This project serves as a basic template for building your own static website using Qtip.
+Qtrip is a lightweight static website generator that simplifies the process of creating and deploying static websites. This project serves as a basic template for building your own static website using Qtip.
 
 ## Features
 
@@ -19,13 +19,13 @@ Qtip is a lightweight static website generator that simplifies the process of cr
 
    ```bash
    git clone https://github.com/yourusername/qtip-static-website.git
-   cd qtip-static-website
+   cd qtrip-static-website
    ```
 
 2. **Install Qtip:** If you haven't already, install Qtip globally on your machine.
 
    ```bash
-   npm install -g qtip
+   npm install -g qtrip
    ```
 
 3. **Initialize Your Website:** Run the following command to initialize your website and create the necessary folder structure.
@@ -64,7 +64,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Qtip is a fantastic tool for creating static websites.
+- Qtrip is a fantastic tool for creating static websites.
 - Thanks to the open-source community for their contributions.
 
 ## Contact
