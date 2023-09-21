@@ -1,6 +1,3 @@
-Certainly! Below is a sample README.md file for a static website project using Qtip. You can use this template as a starting point and customize it according to your specific project details.
-
-```markdown
 # Qtip Static Website
 
 This is a simple static website project built using Qtip.
