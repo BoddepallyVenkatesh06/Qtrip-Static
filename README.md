@@ -18,7 +18,7 @@ Qtrip is a lightweight static website generator that simplifies the process of c
 1. **Clone the Repository:** Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/qtip-static-website.git
+   git clone https://github.com/BoddepallyVenkatesh06/qtip-static-website.git
    cd qtrip-static-website
    ```
 
