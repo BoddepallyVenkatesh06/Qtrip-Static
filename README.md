@@ -1,10 +1,10 @@
 # Qtrip Static Website
 
-This is a simple static website project built using Qtip.
+This is a simple static website project built using Qtrip.
 
 ## Overview
 
-Qtrip is a lightweight static website generator that simplifies the process of creating and deploying static websites. This project serves as a basic template for building your own static website using Qtip.
+Qtrip is a lightweight static website generator that simplifies the process of creating and deploying static websites. This project serves as a basic template for building your static website using Qtrip.
 
 ## Features
 
@@ -31,15 +31,15 @@ Qtrip is a lightweight static website generator that simplifies the process of c
 3. **Initialize Your Website:** Run the following command to initialize your website and create the necessary folder structure.
 
    ```bash
-   qtip init
+   qtrip init
    ```
 
-4. **Edit Content:** Replace the content in the `src` directory with your own Markdown files. You can also customize the HTML and CSS in the `template` directory to match your design.
+4. **Edit Content:** Replace the content in the `src` directory with your Markdown files. You can also customize the HTML and CSS in the `template` directory to match your design.
 
 5. **Generate the Website:** Run the following command to generate your static website.
 
    ```bash
-   qtip build
+   qtrip build
    ```
 
 6. **Preview Locally:** You can preview your website locally by running a local server. For example, you can use Python's built-in HTTP server:
